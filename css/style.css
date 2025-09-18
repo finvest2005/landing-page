@@ -25,9 +25,11 @@ body {
 .div-logo .left {
   font-weight: 700;
   font-size: 24px;
+  color: #f9faf8;
 }
-.div-logo .right {
+.div-logo .right a {
   font-size: 18px;
+  color: #e5e7eb;
 }
 ul {
   list-style: none;
