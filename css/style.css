@@ -79,6 +79,7 @@ button {
 /* ------------------------ div-info */
 .div-info {
   background-color: #fff;
+  padding: 10px 0;
 }
 .div-info p {
   font-size: 36px;
@@ -115,6 +116,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 40px 0;
 }
 .div-quote .quote {
   color: #1f2937;
