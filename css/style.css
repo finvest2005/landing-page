@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* ------------------------ GLOBAL SETTINGS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: #fff;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: Roboto, sans-serif;
   /* border: 1px dashed #333;
   background-clip: content-box; */
@@ -14,6 +15,18 @@ body {
   display: flex;
   flex-direction: column;
 }
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+a {
+  text-decoration: none;
+}
+
+/* ------------------------ div-logo */
 .div-logo {
   background-color: #1f2937;
   min-height: 5vh;
@@ -31,25 +44,45 @@ body {
   font-size: 18px;
   color: #e5e7eb;
 }
-ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-  gap: 16px;
-}
-a {
-  text-decoration: none;
-}
 
+/* ------------------------ div-header */
 .div-header {
   background-color: #1f2937;
   min-height: 20vh;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 20px 60px;
+  gap: 20px;
 }
+.container {
+  width: 50vw;
+}
+.container p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.div-header img {
+  height: 150px;
+  width: 350px;
+  border-radius: 15px;
+}
+button {
+  background-color: #3882f6;
+  padding: 8px 30px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* ------------------------ div-info */
 .div-info {
   background-color: #fff;
   min-height: 25vh;
 }
+
+/* ------------------------ div-quote */
 .div-quote {
   background-color: #e5e7eb;
   min-height: 25vh;
