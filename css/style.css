@@ -151,7 +151,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 60px;
 }
 .div-sign h1 {
   font-size: 18px;
@@ -174,4 +174,11 @@ button {
 .div-footer {
   background-color: #1f2937;
   min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-footer p {
+  font-size: 14px;
 }
