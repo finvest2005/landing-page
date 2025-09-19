@@ -169,10 +169,10 @@ button {
 /* ------------------------ div-sign */
 .div-footer {
   background-color: #1f2937;
-  min-height: 4vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .div-footer p {
